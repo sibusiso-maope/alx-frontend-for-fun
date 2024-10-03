@@ -19,6 +19,7 @@
     --color-primary: #D73953;
     --color-black:  #090909;
     --color-white: #ffffff;
+    --color-grey: #a0a0a0;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
   
@@ -181,8 +182,8 @@
   
   .row {
     display: flex;
-  }
-  
+  }    
+
   ul.row {
     margin: 0;
     padding: 0;
@@ -256,6 +257,9 @@
   
   .header {
     padding: var(--header-padding);
+    position: relative;
+    z-index: 3;
+    background: transparent;
   }
   
   .header-logo {
